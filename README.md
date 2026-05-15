@@ -96,5 +96,5 @@ Transformation of categorical variables into model-ready format
 - Type: Binary classification problem
 
 ## Links
-- Kaggle Competition: https://www.kaggle.com/competitions/titanic
-- Project Repository: (https://github.com/Tatiane-Vieira/titanic-machine-learning-project)
+- Project Repository: https://github.com/Tatiane-Vieira/titanic-machine-learning-project
+- LinkedIn: https://www.linkedin.com/in/tatiane-cvieira/
