@@ -1,4 +1,4 @@
-# Titanic Survival Prediction | Machine Learning Classification Project
+# 🚢 Titanic Survival Prediction | Machine Learning Classification Project
 
 Machine learning project developed using the Titanic dataset from Kaggle.
 
@@ -97,4 +97,4 @@ Type: Binary classification problem
 
 ## Links
 Kaggle Competition: https://www.kaggle.com/competitions/titanic
-Project Repository: (add your GitHub link here)
+Project Repository: (https://github.com/Tatiane-Vieira/titanic-machine-learning-project)
