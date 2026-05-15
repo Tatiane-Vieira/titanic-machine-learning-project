@@ -1,30 +1,54 @@
-# Titanic Survival Prediction
+# Titanic Survival Prediction | Machine Learning Classification Project
 
 Machine learning project developed using the Titanic dataset from Kaggle.
 
 ## Project Overview
 
-This project explores passenger survival patterns aboard the Titanic using:
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Missing Value Treatment
-- One-Hot Encoding
-- Machine Learning Models
+This project applies machine learning techniques to predict passenger survival in the Titanic disaster using the Kaggle dataset.
+
+The workflow includes exploratory data analysis (EDA), data preprocessing, feature engineering, model training, and performance evaluation to identify the most effective classification approach.
+
+The goal is to build a robust and interpretable predictive model while demonstrating key data science skills such as data cleaning, feature transformation, and model comparison.
+
+## Project objective
+
+To predict whether a passenger survived the Titanic disaster based on demographic, socio-economic, and travel-related features.
+
+## Data Preprocessing
+
+Key steps included:
+
+- Handling missing values (Age, Cabin, Embarked)
+- Imputing missing data using statistical strategies
+- Converting categorical variables into numerical format
+- One-Hot Encoding for categorical features
+
+## Exploratory Data Analysis (EDA)
+
+EDA revealed important patterns such as:
+
+- Gender as a strong indicator of survival
+- Higher survival rates among younger passengers
+- Passengers with recorded cabin information showing different survival patterns
 
 ## Models Tested
 
-- Logistic Regression
-- Decision Tree
-- Random Forest
+Multiple machine learning models were trained and compared:
+
+Logistic Regression (baseline and final model)
+Decision Tree Classifier
+Random Forest Classifier
 
 ## Final Model
 
-Logistic Regression was selected as the final model due to its balanced performance and interpretability.
+The final model selected was Logistic Regression, due to its:
 
-## Kaggle Score
+- Strong and stable performance
+- High interpretability
+- Better generalization compared to more complex models
 
-Final Kaggle submission score:
-0.76076
+## Evaluation
+- Kaggle Submission Score (Accuracy): 0.76076
 
 ## Technologies Used
 
@@ -35,10 +59,13 @@ Final Kaggle submission score:
 - Matplotlib
 - Seaborn
 
-## Main Features Engineered
+## Feature Engineering
 
-- AgeGroup
-- HasCabin
+The following features were created to improve model performance:
+
+AgeGroup: Age categorized into meaningful bins
+HasCabin: Binary feature indicating whether cabin information is available
+Transformation of categorical variables into model-ready format
 
 ## Project Workflow
 
@@ -49,7 +76,25 @@ Final Kaggle submission score:
 5. Model training and evaluation
 6. Kaggle submission
 
+## Key Insights
+- Gender was one of the most influential predictors of survival
+- Socio-economic indicators (Pclass) strongly impacted survival probability
+- Feature engineering improved model interpretability and performance
+- Simpler models (Logistic Regression) performed competitively against more complex ones
+
+## What this project demonstrates
+- End-to-end machine learning pipeline
+- Data cleaning and preprocessing skills
+- Feature engineering techniques
+- Model comparison and evaluation
+- Ability to communicate results clearly
+
 ## Dataset
 
-Titanic - Machine Learning from Disaster:
-https://www.kaggle.com/competitions/titanic
+Source: Kaggle Titanic Competition
+Link: https://www.kaggle.com/competitions/titanic
+Type: Binary classification problem
+
+## Links
+Kaggle Competition: https://www.kaggle.com/competitions/titanic
+Project Repository: (add your GitHub link here)
